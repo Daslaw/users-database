@@ -16,7 +16,7 @@ function fetchUsers() {
 function renderUsers(usersData) {
   const ul = document.getElementById("user-list-container");
 
-  //3.2Render an Li tag for each of the users
+  //3.2 Render an Li tag for each of the users
   usersData.forEach((user, index) => {
     const li = document.createElement("li");
     li.innerHTML = `
